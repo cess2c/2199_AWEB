@@ -1,7 +1,38 @@
-<h1>Chester Lance James</h1>
-<p>San Juan, Pampanga</p>
-<app-comp1 />
-<app-comp2 />
-<app-comp3 />
-<app-comp4 />
+<main class="grid grid-cols-12 grid-rows-3 gap-4 h-screen px-8 py-4 bg-violet-900">
+    <header class="h-full col-span-4 row-span-2 p-8 bg-neutral-200 rounded-2xl">
+        <div class="flex flex-col">
+            <h1 class="font-extrabold text-8xl mb-8">Frances Luis Tumampos</h1>
+            <h3 class="font-bold text-4xl mb-12">Frontend Web Developer</h3>
+            <p class="font-bold my-1.5 text-2xl mb-8"><i class="fa-solid fa-phone"></i> +639260045445</p>
+            <p class="font-bold my-1.5 text-2xl mb-8"><i class="fa-solid fa-location-dot"></i> Salu, Porac, Pampanga</p>
+            <p class="font-bold my-1.5 text-2xl mb-8"><i class="fa-solid fa-envelope"></i> tumamposfrances&#64;gmail.com</p>
+        </div>
+    </header>
+    <section class="content col-span-8 row-span-3 p-8 grid grid-4 bg-neutral-200 rounded-2xl">
+        <div class="grid grid-cols-4 gap-2">
+            <h3 class="font-bold text-2xl">Work Experience/ Projects</h3>
+            <div class="col-span-3">
+                <app-comp1 />
+            </div>
+        </div>
+        <div class="grid grid-cols-4 gap-2">
+            <h3 class="font-bold text-2xl">Training/ Certificates</h3>
+            <div class="col-span-3">
+                <app-comp2 />
+            </div>
+        </div>
+        <div class="grid grid-cols-4 gap-2">
+            <h3 class="font-bold text-2xl">Education</h3>
+            <div class="col-span-3">
+                <app-comp3 />
+            </div>
+        </div>
+        <div class="grid grid-cols-4 gap-2">
+            <h3 class="font-bold text-2xl">Tools</h3>
+            <div class="col-span-3">
+                <app-comp4 />
+            </div>
+        </div>
+    </section>
+</main>
 <router-outlet />
